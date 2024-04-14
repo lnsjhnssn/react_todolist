@@ -1,0 +1,72 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+#root {
+  padding-top: 2rem;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Input form */
+
+.form-new-task {
+  display: flex;
+  align-items: center;
+}
+
+.input-new-task {
+  margin-right: 1rem;
+  height: 2rem;
+  font-size: inherit;
+  padding-left: 3px;
+}
+
+.form-new-task button {
+  height: 2rem;
+  color: white;
+  margin: 3rem 0;
+  background-color: blue;
+  border: none;
+  padding: 5px 10px;
+}
+
+/* List of tasks */
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.task p {
+  width: 300px;
+}
+
+.task button {
+  border: none;
+  height: 2rem;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.861);
+  color: white;
+}
+
+.task input {
+  margin-right: 2rem;
+}
+
+.para-no-tasks {
+  margin-bottom: 2rem;
+}
